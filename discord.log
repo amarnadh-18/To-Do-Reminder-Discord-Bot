@@ -1,0 +1,22 @@
+2025-07-06 15:52:43,465 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-06 15:52:43,471 - bot - INFO - ✅ Loaded tasks cog
+2025-07-06 15:52:43,471 - bot - INFO - 🚀 Starting To-Do Bot...
+2025-07-06 15:52:43,471 - discord.client - INFO - logging in using static token
+2025-07-06 15:52:45,109 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 340f1969f03bf0dc284be340c78f8a9b).
+2025-07-06 15:52:47,120 - bot - INFO - ✅ To-Do-Reminder#3264 has connected to Discord!
+2025-07-06 15:52:47,120 - bot - INFO - 📊 Bot is in 1 guilds
+2025-07-06 15:52:47,122 - apscheduler.scheduler - INFO - Scheduler started
+2025-07-06 15:52:47,123 - scheduler.scheduler - INFO - ✅ Reminder scheduler started successfully!
+2025-07-06 15:52:47,124 - bot - INFO - ✅ Reminder scheduler started!
+2025-07-06 15:52:47,124 - scheduler.reminder_jobs - INFO - 🔄 Starting reminder processor...
+2025-07-06 15:53:19,119 - apscheduler.scheduler - INFO - Added job "ReminderScheduler._trigger_reminder" to job store "default"
+2025-07-06 15:53:19,120 - scheduler.scheduler - INFO - ✅ Added reminder 686a4e97054f0a9a82b03be6 for 2025-07-06 15:54:00
+2025-07-06 15:53:19,121 - scheduler.reminder_jobs - INFO - ✅ Created reminder 686a4e97054f0a9a82b03be6 for task 686a470d21dcc5e2cd6b643d
+2025-07-06 15:54:00,000 - apscheduler.scheduler - INFO - Removed job reminder_686a4e97054f0a9a82b03be6
+2025-07-06 15:54:00,001 - apscheduler.executors.default - INFO - Running job "ReminderScheduler._trigger_reminder (trigger: date[2025-07-06 15:54:00 IST], next run at: 2025-07-06 15:54:00 IST)" (scheduled at 2025-07-06 15:54:00+05:30)
+2025-07-06 15:54:02,790 - scheduler.reminder_jobs - INFO - ✅ Sent scheduled reminder 686a4e97054f0a9a82b03be6 to user 953987333751967774
+2025-07-06 15:54:02,793 - apscheduler.executors.default - INFO - Job "ReminderScheduler._trigger_reminder (trigger: date[2025-07-06 15:54:00 IST], next run at: 2025-07-06 15:54:00 IST)" executed successfully
+2025-07-06 15:55:10,707 - scheduler.reminder_jobs - INFO - 🛑 Stopping reminder processor...
+2025-07-06 15:55:10,708 - scheduler.scheduler - INFO - 🛑 Reminder scheduler stopped.
+2025-07-06 15:55:10,709 - bot - INFO - 🧹 Cleanup completed
+2025-07-06 15:55:10,709 - apscheduler.scheduler - INFO - Scheduler has been shut down
