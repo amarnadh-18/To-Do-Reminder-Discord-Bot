@@ -53,22 +53,6 @@ A Discord bot for managing tasks and setting reminders with MongoDB integration.
 | `!testdm` | Test DM functionality | `!testdm` |
 | `!help` | Show help | `!help` |
 
-## 🕒 Time Formats
-
-### Relative Time
-- `in 30 minutes`
-- `in 2 hours`
-- `tomorrow`
-- `next monday`
-
-### Absolute Time
-- `2025-07-06 10:00 AM`
-- `'2025-07-06' '10:00 AM'`
-- `2025-07-06 10:00AM`
-
-### Specific Time
-- `tomorrow at 3pm`
-- `today at 2:30 PM`
 
 ## 🎯 Priority Levels
 
@@ -92,32 +76,7 @@ The bot requires these permissions:
 - Embed Links
 - Read Message History
 
-## 🚨 Troubleshooting
-
-### Common Issues
-
-1. **Bot not responding**
-   - Check if the bot token is correct
-   - Ensure the bot has proper permissions
-   - Verify the bot is online
-
-2. **Database connection failed**
-   - Check MongoDB is running
-   - Verify the connection string
-   - Ensure network connectivity
-
-3. **Reminders not working**
-   - Use `!testdm` to check DM functionality
-   - Check Discord privacy settings
-   - Verify the bot can send DMs
-
-4. **Privileged intents error**
-   - The bot is configured to work without privileged intents
-   - No additional setup required in Discord Developer Portal
-
-### Logs
-
-Check `discord.log` for detailed error information.
+---
 
 ## 🏗️ Project Structure
 
